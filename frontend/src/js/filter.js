@@ -18,8 +18,8 @@ export const filterByCategory = (filter) => {
     const videos = document.querySelectorAll(".videos__item")
     let valueFilter = filter.toLowerCase()
     videos.forEach(video => {
-        let category = video.querySelector(".categoria-video").textContent.toLowerCase()
-        video.style.display = !category.includes(valueFilter) && valueFilter != "All" ? "none" : "block"
+        let category = video.querySelector(".category-video").textContent.toLowerCase()
+        video.style.display = !category.includes(valueFilter) && valueFilter != "all" ? "none" : "block"
     })
 }
 

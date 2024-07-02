@@ -17,7 +17,7 @@ async function searchShowVideos() {
                             <img class="img-channel" src=${video.image} alt="Logo do Canal">
                             <h3 class="title-video">${video.title}</h3>
                             <p class="title-channel">${video.description}</p>
-                            <p class="categoria-video" hidden>${video.category}</p>
+                            <p class="category-video" hidden>${video.category}</p>
                             </div>
                     </li>
                 `
