@@ -40,7 +40,7 @@
   display: flex;
   justify-content: space-around;
   height: 100%;
-  color: var(--cinza-medio);
+  color: var(--medium-gray);
 }
 
 .menu__list li {
