@@ -9,9 +9,8 @@
 	vertical-align: baseline;
 }
 
-
-html, body {
-	font-size: 100%;
+*, html {
+	font-size: 62.5%;
 }
 
 article, aside, details, figcaption, figure,
